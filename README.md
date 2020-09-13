@@ -43,7 +43,7 @@ According to our results, vehicle length and ground clearance (as well as interc
 -  Std. Dev 14.832753 
 -  Variance 220.01056
 
-At first, the test was performed with a group_by on maunfacturing lot number. The variance on Lot3 is outside of this specificatin and should be rejected. I expected the one sample population test to be rejected also but it was not.  Still, there is a problem with Lot3 that should be investigated.
+At first, the test was performed with a group_by on maunfacturing lot number. The variance on Lot3 is outside of this specification and should be rejected. I expected the one-sample population test to be rejected also but it was not.  Still, there is a problem with Lot3 that should be investigated.
 
 ### Suspension Coil Summary Entire Population
 - Mean 1499.531  
@@ -92,7 +92,7 @@ Use ANOVA test (two-way) since independent variabe is categorical and dependent 
 
 Also, there are multiple categorical variab les tightly linked so use Chi-squared test to find out if there is a statistical difference in distribution of category or is the data explained by random distriubtion.
 
-Collect the data for the four metrics across for 10 best-selling cars in the same category as MechaCar prototyes.
+Collect the data for the four metrics across for 10 best-selling cars in the same category as MechaCar prototypes.
 
 ## Resources
 
