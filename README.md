@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 Statistical analysis with car data using R
 ## MPG data
-To better predict the fuel efficienct (mpg) dependent variable, other variables of interest are used as independent variables to this multiple linear regression model.  The indepedenat variables are:
+To better predict the fuel efficienct (mpg) dependent variable, other variables of interest are used as independent variables to this multiple linear regression model.  The independent variables are:
 - vehicle.length
 - vehicle.weight
 - spoiler.angle
