@@ -21,27 +21,39 @@ The Multple R-squared (coefficient of determination) value is 0.7149 which is a 
 According to our results, vehicle length and ground clearance (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model.  This means that vehicle length and ground clearance have a significant impact on fuel efficiency.
 
 ## Suspension Coil Data
-# Suspension Coil PSI Summary by Manufacturing Lot
+### Suspension Coil PSI Summary by Manufacturing Lot
 
-Lot   Mean      Median    Std. Dev  Variance
----   ----      ------    --------  --------
-Lot1  1500.018  1500.206  1.070525  1.146024
-Lot2  1499.571  1498.873  3.183003  10.131511
-Lot3  1499.004  1497.981  14.832753 220.01056
+
+Lot1
+Mean   1500.018  
+Median 1500.206  
+Std. Dev 1.070525  
+Variance 1.146024
+Lot2  
+Mean 1499.571  
+Median 1498.873  
+Std. Dev 3.183003  
+Variance 10.131511
+Lot3  
+Mean 1499.004  
+Median 1497.981  
+Std. Dev 14.832753 
+Variance 220.01056
 
 At first, the test was performed with a group_by on maunfacturing lot number. The variance on Lot3 is outside of this specificatin and should be rejected. I expected the one sample population test to be rejected also but it was not.  Still, there is a problem with Lot3 that should be investigated.
 
-# Suspension Coil Summary Entire Population
-Mean      Median    Std. Dev  Variance
-----      ------    --------  --------
-1499.531  1499.747  8.731242  76.23459
+### Suspension Coil Summary Entire Population
+Mean 1499.531  
+Median 1499.747
+Std. Dev 8.731242
+Variance 76.23459
 
 The design specifications for the suspension coils dictate that the variance of the coils not exceed 100 pounds per inch. The variance of the population meets this specification.
 
-# Density Plot
+### Density Plot
 ![](DensityPlot.PNG)
 
-# One Sample T-test
+### One Sample T-test
 Hypotheses:
 •	H0 : There is no statistical difference between the observed sample mean and its presumed population mean
 •	Ha : There is a statistical difference between the observed sample mean and its presumed population mean
